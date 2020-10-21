@@ -19,12 +19,6 @@ body {
   background-color: #111;
 }
 
-/* @media only screen and (max-device-width: 750px) {
-  video {
-    display:none
-  }
-} */
-
 #bgvideo {
   position: fixed;
 }

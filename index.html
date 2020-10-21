@@ -30,8 +30,8 @@
             if(window.innerWidth > 500) {
                 let video = document.createElement("VIDEO")
                 video.setAttribute("src", "./bgvideo/Particles_4___30s___4k_res.mp4");
+                video.setAttribute("autoplay", "autoplay");
                 video.setAttribute("loop", "loop");
-                video.setAttribute("autoplay", "autoplay")
                 video.setAttribute("muted", "muted");
                 video.setAttribute("id", "bgvideo");
             document.body.appendChild(video)

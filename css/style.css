@@ -850,7 +850,7 @@ body.light hr.separator {
   font-size: 33px;
 }
 
-/* Embedded Videos */
+
 
 .portfolio .slideshow .videocontainer,
 .portfolio .slideshow .responsive-video {
@@ -1258,19 +1258,16 @@ body.light hr.separator {
   }
 }
 
-/* Mobile  Navigation */
+
 
 @media (max-width: 991px) {
   .btn {
     padding: 0 28px;
   }
 
-  body.home {
-    padding: 25px;
-  }
 
   body.home .main-container {
-    padding: 30px 0 !important;
+    padding: 30px  !important;
   }
 
   .home .home-details-container {

@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <title>Ervins Zagars</title>
@@ -25,9 +24,16 @@
     <script src="js/modernizr.custom.js"></script>
 </head>
 
-<body class="home">
+<style>
+    @media only screen and (max-width: 400px) {
+  #bgvideo {
+    display:none;
+  }
+}
+</style>
 
-    <video playsinline poster="/bgvideo/poster.png" autoplay muted loop style="position:fixed">
+<body class="home">
+    <video id="bgvideo"poster="/bgvideo/poster.png" autoplay muted loop style="position:fixed" >
         <source src="./bgvideo/Particles_4___30s___4k_res.mp4" type="video/mp4">
     </video>
 

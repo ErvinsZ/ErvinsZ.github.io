@@ -25,9 +25,25 @@
 </head>
 
 <body class="home">
-    <video  id="bgvideo" poster="/bgvideo/poster.png" autoplay muted loop style="position:fixed" >
+    <script>
+        function addVideo() {
+            if(window.innerWidth > 500) {
+                let video = document.createElement("VIDEO")
+                video.setAttribute("src", "./bgvideo/Particles_4___30s___4k_res.mp4");
+                video.setAttribute("loop", "loop");
+                video.setAttribute("autoplay", "autoplay")
+                video.setAttribute("muted", "muted");
+                video.setAttribute("id", "bgvideo");
+            document.body.appendChild(video)
+            console.log(video)
+            }
+        }
+        window.onload=addVideo();
+        
+    </script>
+    <!-- <video  id="bgvideo" poster="/bgvideo/poster.png" autoplay muted loop>
         <source src="./bgvideo/Particles_4___30s___4k_res.mp4">
-    </video>
+    </video> -->
 
 <header class="header" id="navbar-collapse-toggle">
 
@@ -86,16 +102,7 @@
     </div>
 </section>
 
-<script>
-    function removeVideo() {
-        if(window.innerWidth < 500) {
-            let video = document.getElementById("bgvideo")
-            video.remove()
-        }
-    }
-    window.onload=removeVideo();
-    
-</script>
+
 
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/preloader.min.js"></script>

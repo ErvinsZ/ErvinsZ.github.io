@@ -25,6 +25,10 @@ body {
   }
 } */
 
+#bgvideo {
+  position: fixed;
+}
+
 .poppins-font {
   font-family: 'Poppins', sans-serif;
 }

@@ -19,11 +19,11 @@ body {
   background-color: #111;
 }
 
-@media only screen and (max-device-width: 750px) {
-  #bgvideo {
+/* @media only screen and (max-device-width: 750px) {
+  video {
     display:none
   }
-}
+} */
 
 .poppins-font {
   font-family: 'Poppins', sans-serif;

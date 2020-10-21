@@ -25,7 +25,7 @@
 </head>
 
 <body class="home">
-    <video id="bgvideo"poster="/bgvideo/poster.png" autoplay muted loop style="position:fixed" >
+    <video  id="bgvideo" poster="/bgvideo/poster.png" autoplay muted loop style="position:fixed" >
         <source src="./bgvideo/Particles_4___30s___4k_res.mp4">
     </video>
 
@@ -85,6 +85,17 @@
         </div>
     </div>
 </section>
+
+<script>
+    function removeVideo() {
+        if(window.innerWidth < 500) {
+            let video = document.getElementById("bgvideo")
+            video.remove()
+        }
+    }
+    window.onload=removeVideo();
+    
+</script>
 
 <script src="js/jquery-3.5.0.min.js"></script>
 <script src="js/preloader.min.js"></script>

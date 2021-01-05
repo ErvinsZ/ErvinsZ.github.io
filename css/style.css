@@ -21,6 +21,7 @@ body {
 
 #bgvideo {
   position: fixed;
+  height:100%
 }
 
 .poppins-font {

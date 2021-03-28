@@ -18,7 +18,12 @@ body {
   width: 100%;
   background-color: #111;
 }
+figcaption img{
+  width: 80%;
+  height: 260px;
+  margin: auto;
 
+}
 #bgvideo {
   position: fixed;
   height:100%
@@ -723,6 +728,8 @@ body.light hr.separator {
 
 .portfolio .grid li a {
   overflow: hidden;
+  color: #FFB910;
+  text-decoration: underline;
 }
 
 .portfolio .grid li figure div {
